@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h3 {
+    margin: 0;
+}
+/* Change icon color */
+.bannerIcons i {
+    color: #ffffff; /* Choose a contrasting color */
+}
+/* Add background and padding to icons */
+.bannerIcons a {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 50%; /* Makes the background circular */
+}
+
+.bannerIcons i {
+    color: #fff; /* Set the icon color */
+    font-size: 24px; /* Adjust the icon size if necessary */
+}
+.banner {
+    background-color: #333; /* Choose a lighter or contrasting color */
+    color: #fff; /* Ensure the text and icons are visible */
+}
+.bannerIcons i {
+    font-size: 30px; /* Increase the size of the icons */
+    color: #fff; /* Set a contrasting color */
+}
+
+
+/* Header */
+.header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+/* Banner Section */
+.banner {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+.loginContainer {
+    position: absolute;
+    top: 20px;  /* Distance from the top of the page */
+    right: 20px;  /* Distance from the right side of the page */
+}
+
+.loginContainer button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loginContainer button:hover {
+    background-color: #555;
+}
+
+.bannerHeader h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.bannerHeader p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.bannerTagline {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.bannerIcons a {
+    margin: 0 10px;
+    font-size: 30px;
+    color: white;
+}
+.bannerIcons a:hover {
+    opacity: 0.7;
+}
+
+/* Homepage Features */
+.homepageContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+.homepageFeature {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featureIcon {
+    font-size: 40px;
+    color: #333;
+}
+.featureTitle {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.featureDescription {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Email Subscription */
+.homepageFeature form {
+    margin-top: 10px;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
+
+/* Notify Section */
+.homepageNotified {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #eee;
+}
+
+.emailfrom {
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Video Section */
+.video {
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+    line-height: 400px; /* Centering text vertically */
+    font-size: 24px;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .homepageContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homepageFeature {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .bannerHeader h1 {
+        font-size: 36px;
+    }
+
+    .bannerHeader p {
+        font-size: 18px;
+    }
+
+    .bannerTagline {
+        font-size: 16px;
+    }
+}
