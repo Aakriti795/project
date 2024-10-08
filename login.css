@@ -1,0 +1,87 @@
+
+
+body #loginBody{
+    background-image: url("def.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.loginHeader{
+    text-align: center;
+sss
+}
+div.loginHeader{
+    margin-bottom: 60px;
+}
+div.loginHeader h1{
+    font-size: 100px;
+    color:lawngreen;
+    padding:0px;
+    margin: 0px;
+    
+}
+div.loginHeader p{
+    color: #3d0311;
+    font-size: 50px;
+    margin:0px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+div.loginHeader p:after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: #090244;
+    margin:0 auto;
+}
+div.loginBody form {
+    margin:0 auto;
+    width: 450px;
+    background: #855e5e;
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-blend-mode: lighten;
+}
+
+div.loginInputsContainer{
+    margin-top: 20px;
+    
+}
+
+div.loginInputsContainer{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+div.loginInputsContainer{
+    height: 30px;
+    width: 100%;
+    border: 2px solid #a5566b;
+    font: size 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+div.submitContainer{
+    margin-top:40px;
+    text-align: center;
+
+}
+
+div.submitContainer button{
+    font-size: 20px;
+    padding: 10px 40px;
+    background: #f685a2;
+    border:none;
+    color: #fff;
+
+
+}
+
