@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>IS Login - Inventory System</title>
+</head>
+<body id="loginBody">
+    <div class="container"> 
+        <div class="loginHeader">
+            <h1>IS</h1>
+            <p>Inventory System</p>
+        </div>
+        <div class="loginBody">
+            <form action="">
+                <div class="loginInputsContainer">
+                    <label for="username">User name:</label>
+                    <input type="text" id="username" name="username" autocomplete="username" placeholder="Enter your username">
+                </div>
+                <br>
+                <div class="loginInputsContainer">
+                    <label for="password">Password:</label> 
+                    <input type="password" id="password" name="password" autocomplete="new-password" placeholder="Enter your password"> 
+                </div>
+                <br>
+                <div class="submitContainer">
+                    <button type="submit">Submit</button>
+                </div>
+                <br>
+
+                <!-- Change Password and Registration buttons -->
+                <div class="submitContainer">
+                    <button type="button" onclick="window.location.href='changepassword.html';">Change Password</button>
+                    <button type="button" onclick="window.location.href='register.html';">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
