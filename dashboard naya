@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>Inventory System</h1>
+                <div class="profile">
+                    <img src="profile.png" alt="Admin Profile">
+                    <p>Admin</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <div class="dashboard-icon">
+                        <img src="dashboard-icon.png" alt="Dashboard Icon">
+                        <span>Dashboard</span>
+                      </div>
+                      <div class="reports-icon">
+                        <img src="report-icon.png" alt="Reports Icon">
+                        <span>Reports</span>
+                      </div>
+                      <div class="products-icon">
+                        <img src="products-icon.png" alt="Products Icon">
+                        <span>Products</span>
+                      </div>
+                      <div class="supplier-icon">
+                        <img src="supplier-icon.png" alt="Supplier Icon">
+                        <span>Supplier</span>
+                      </div>
+                      <div class="purchase-order-icon">
+                        <img src="purchaseorder-icon.png" alt="Purchase Order Icon">
+                        <span>Purchase Order</span>
+                      </div>
+                      <div class="user-icon">
+                        <img src="user-icon.png" alt="User Icon">
+                        <span>User</span>
+                      </div>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <button class="menu-toggle">&#9776;</button>
+                <div class="logout">
+                    <a href="#">Log-out</a>
+                </div>
+            </header>
+
+            <section class="content">
+                <div class="stats">
+                    <div class="delivery-chart">
+                        <h3>Delivery Count</h3>
+                        <p>December 7, 2022</p>
+                        <img src="chart1.png" alt="Delivery Count Graph">
+                    </div>
+                    <div class="purchase-chart">
+                        <h3>Purchase History Per Day</h3>
+                        <img src="chart2.png" alt="Purchase History Graph">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
